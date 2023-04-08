@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan Lightbox</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>FOTO RANDOM</h1>
+
+    <div class="container">
+      <ul class="gallery">
+        <li>
+          <a href="#gambar-1">
+            <img src="img/thumb/mancing.jpg" alt="Mancing" />
+            <span>Mancing</span>
+          </a>
+          <div class="overlay" id="gambar-1">
+            <a href="#" class="close">X </a>
+            <a href="#gambar-2" class="prev">prev</a>
+            <img src="img/full/mancingfull.jpg" alt="mancing" />
+            <a href="#gambar-2" class="next">next</a>
+          </div>
+        </li>
+
+        <li>
+          <a href="#gambar-2">
+            <img src="img/thumb/ombakk.jpg" alt="ombakk" />
+            <span>ombakk</span>
+          </a>
+          <div class="overlay" id="gambar-2">
+            <a href="#" class="close">X </a>
+            <a href="#gambar-1" class="prev">prev</a>
+            <img src="img/full/ombakfull.jpg" alt="ombakk" />
+            <a href="#gambar-1" class="next">next</a>
+          </div>
+        </li>
+
+        <div class="clear"></div>
+      </ul>
+    </div>
+
+    <script src="angkot.js"></script>
+  </body>
+</html>
